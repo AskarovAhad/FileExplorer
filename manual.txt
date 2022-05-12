@@ -16,3 +16,23 @@ manual - открывает инструкцию (этот файл)
 space - выводит общее/доступное/свободное пространство на диске D и C в мегабайтах
 exit - завершает работу программы
 log - открывает папку с логами программы
+
+/*------------------------------------------*/
+Instructions for using my explorer!
+1) To work with a file: command + / f
+2) to work with folders/directories: command + /d
+
+Commands
+cd - moves us to a folder
+cd.. - returns to the main directory
+dir - moves us to the entered directory
+dir /s /f, dir /s /d - to find out the size of a folder/file
+del /f, /d - deletes a file/folder, you need to specify the full path to delete the folder
+create /f, /d - creates a folder/file
+copy /f, /d - copies the entire contents of the folder or file (if there are files with the same name in the folder, the program will give an error)
+move /f, /d - moves the entire contents of the folder or file (if there are files with the same name in the folder, the program will give an error)
+rename /f, /d - renames a folder/file
+manual - opens a manual (this file)
+space - Displays total/available/free space on drive D and C in megabytes
+exit - exits the program
+log - opens a folder with program logs
